@@ -1,0 +1,374 @@
+Script started on 2023-03-20 12:34:10+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="99" LINES="52"]
+(base) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ ls
+Anaconda3-5.3.1-Linux-x86_64.sh  [0m[01;34mlibgit2[0m              my_unix_session1  [01;34mproject[0m
+README                           my_ini_unix_session  my_unix_session2  [01;34mthesis[0m
+[01;34manaconda3[0m                        my_unix_session      [01;34mmylibgit[0m
+(base) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ ls[Kcd mylibgit/
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ ls
+AUTHORS         README       api.docurium  [0m[01;34mdeps[0m      [01;34mfuzzers[0m          package.json      [01;34msrc[0m
+CMakeLists.txt  README.md    [01;34mci[0m            [01;34mdocs[0m      git.git-authors  [01;34mscript[0m            [01;34mtests[0m
+COPYING         SECURITY.md  [01;34mcmake[0m         [01;34mexamples[0m  [01;34minclude[0m          [01;34msimplegit-progit[0m  [01;34mticgit[0m
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ mkdir assignment1.1
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ ls
+AUTHORS         README.md      [0m[01;34mci[0m     [01;34mexamples[0m         package.json      [01;34mtests[0m
+CMakeLists.txt  SECURITY.md    [01;34mcmake[0m  [01;34mfuzzers[0m          [01;34mscript[0m            [01;34mticgit[0m
+COPYING         api.docurium   [01;34mdeps[0m   git.git-authors  [01;34msimplegit-progit[0m
+README          [01;34massignment1.1[0m  [01;34mdocs[0m   [01;34minclude[0m          [01;34msrc[0m
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ cd ..
+(base) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ ls
+Anaconda3-5.3.1-Linux-x86_64.sh  [0m[01;34mlibgit2[0m              my_unix_session1  [01;34mproject[0m
+README                           my_ini_unix_session  my_unix_session2  [01;34mthesis[0m
+[01;34manaconda3[0m                        my_unix_session      [01;34mmylibgit[0m
+(base) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ cp my_[K[K[K[K[K[Kls-[K -ltr my_unix_session
+-rw-r--r-- 1 prabhu prabhu 4622556 Mar 19 12:08 my_unix_session
+(base) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ ls -ltr my_unix_session[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd \[K[K[Kp my_unix_session mylibgit/assignment1.1/
+(base) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ git add [K[K[K[K[K[K[K[Kcd mylibgit/
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git branch assigntment1.1[K[K[K
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git braqnc[K[K[K[K[K[K[K[K[K[Kgit branch assigntment[K
+[?1h=  assigntment[m[m
+* [32mmain[m[m
+[K[?1l>(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git checkout assignmn[Kent1.1/[K[K[K[K
+error: pathspec 'assignment' did not match any file(s) known to git
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git checkout assignment[K[K[K[Ktment
+A	simplegit-progit
+Switched to branch 'assigntment'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ ls
+AUTHORS         README.md      [0m[01;34mci[0m     [01;34mexamples[0m         package.json      [01;34mtests[0m
+CMakeLists.txt  SECURITY.md    [01;34mcmake[0m  [01;34mfuzzers[0m          [01;34mscript[0m            [01;34mticgit[0m
+COPYING         api.docurium   [01;34mdeps[0m   git.git-authors  [01;34msimplegit-progit[0m
+README          [01;34massignment1.1[0m  [01;34mdocs[0m   [01;34minclude[0m          [01;34msrc[0m
+(base) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ cd assignment1.1/
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ ls
+my_unix_session
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git add m,y[K[Ky_unix_session 
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git status
+On branch assigntment
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   my_unix_session[m
+	[32mnew file:   ../simplegit-progit[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../ticgit/[m
+
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git status -s
+[32mA[m  my_unix_session
+[32mA[m  ../simplegit-progit
+[31m??[m ../ticgit/
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ giot[K[Kt commint[K[Kt
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;52r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[52;1H"~/mylibgit/.git/COMMIT_EDITMSG" 12L, 289C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[35massigntment[m
+[34m# [m[35mChanges to be committed:[m
+[34m#       [m[32mnew file[m[34m: [m[31m  my_unix_session[m
+[34m#       [m[32mnew file[m[34m: [m[31m  ../simplegit-progit[m
+[34m#
+# [m[35mUntracked files:[m
+[34m#       [m[31m../ticgit/[m
+[34m#[m
+[94m~                                                                                                  [14;1H~                                                                                                  [15;1H~                                                                                                  [16;1H~                                                                                                  [17;1H~                                                                                                  [18;1H~                                                                                                  [19;1H~                                                                                                  [20;1H~                                                                                                  [21;1H~                                                                                                  [22;1H~                                                                                                  [23;1H~                                                                                                  [24;1H~                                                                                                  [25;1H~                                                                                                  [26;1H~                                                                                                  [27;1H~                                                                                                  [28;1H~                                                                                                  [29;1H~                                                                                                  [30;1H~                                                                                                  [31;1H~                                                                                                  [32;1H~                                                                                                  [33;1H~                                                                                                  [34;1H~                                                                                                  [35;1H~                                                                                                  [36;1H~                                                                                                  [37;1H~                                                                                                  [38;1H~                                                                                                  [39;1H~                                                                                                  [40;1H~                                                                                                  [41;1H~                                                                                                  [42;1H~                                                                                                  [43;1H~                                                                                                  [44;1H~                                                                                                  [45;1H~                                                                                                  [46;1H~                                                                                                  [47;1H~                                                                                                  [48;1H~                                                                                                  [49;1H~                                                                                                  [50;1H~                                                                                                  [51;1H~                                                                                                  [m[52;82H1,0-1[9CAll[1;1H[?25h[?25l[52;72Hf[1;1H[?25h[?25l[52;73Hi[1;1H[52;72H  [1;1H[?25h[?25l[52;72Hf[1;1H[?25h[?25l[52;73Hi[1;1H[52;72H  [1;1H[?25h[?25l[52;72Hi[1;1H[52;72H [1;1H[52;1H[1m-- INSERT --[m[52;13H[K[52;82H1,1[11CAll[1;1H[?25h[?25l[38;5;130ma[m[52;84H2[1;2H[?25h[?25l[38;5;130md[m[52;84H3[1;3H[?25h[?25l[38;5;130md[m[52;84H4[1;4H[?25h[?25l[38;5;130me[m[52;84H5[1;5H[?25h[?25l[38;5;130md[m[52;84H6[1;6H[?25h[?25l[38;5;130m [m[52;84H7[1;7H[?25h[?25l[38;5;130mu[m[52;84H8[1;8H[?25h[?25l[38;5;130mn[m[52;84H9[1;9H[?25h[?25l[38;5;130mi[m[52;84H10[1;10H[?25h[?25l[38;5;130mx[m[52;85H1[1;11H[?25h[?25l[38;5;130m [m[52;85H2[1;12H[?25h[?25l[38;5;130ms[m[52;85H3[1;13H[?25h[?25l[38;5;130me[m[52;85H4[1;14H[?25h[?25l[38;5;130ms[m[52;85H5[1;15H[?25h[?25l[38;5;130ms[m[52;85H6[1;16H[?25h[?25l[38;5;130mi[m[52;85H7[1;17H[?25h[?25l[38;5;130mo[m[52;85H8[1;18H[?25h[?25l[38;5;130mn[m[52;85H9[1;19H[?25h[?25l[38;5;130m [m[52;84H20[1;20H[?25h[?25l[38;5;130mf[m[52;85H1[1;21H[?25h[?25l[38;5;130mi[m[52;85H2[1;22H[?25h[?25l[38;5;130ml[m[52;85H3[1;23H[?25h[?25l[38;5;130me[m[52;85H4[1;24H[?25h[?25l[2;51r[2;1H[L[1;52r[52;82H[K[52;82H2,1[11CAll[2;1H[?25h[52;1H[K[2;1H[?25l[52;72H^[[2;1H[52;72H  [2;1H[52;82H2,0-1[9CAll[2;1H[?25h[?25l[52;72H^O[2;1H[52;72H  [1;1H[52;82H1,1  [1;1H[?25h[?25l[52;72H^X[1;1H[52;72H  [1;1H[?25h[?25l[52;72H^O[1;1H[52;72H  [4;1H[52;82H4[4;1H[?25h[?25l[52;72H^X[4;1H[52;72H  [4;1H[?25h[?25l[52;72H^X[4;1H[52;72H  [4;1H[?25h[?25l[52;72H:[4;1H[52;72H[K[52;1H:[?2004h[?25hwq[?25l[?2004l".git/COMMIT_EDITMSG" 13L, 313C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[K[assigntment bb1e8a29c] added unix session file
+ 2 files changed, 65907 insertions(+)
+ create mode 100644 assignment1.1/my_unix_session
+ create mode 160000 simplegit-progit
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push
+fatal: The current branch assigntment has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin assigntment
+
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assignm[Ktment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ ssh-keygen -t ed25519 -C "your_email@example.com"[K[A(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ ssh-keygen -t ed25519 -C "your_email@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"p"r"a"b"h"u"."m"u"r"a"l"d"h"a"r"a"n"@"t"i"g"e"r"a"n"a"l"y"t"i"c"s"."c"o"m"idharan@tigeranalytics.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/prabhu/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/prabhu/.ssh/id_ed25519
+Your public key has been saved in /home/prabhu/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:HoMeah/CmOfV5+yZJ/OM1QhZj79UWdbCxNBANvb7fj0 prabhu.muralidharan@tigeranalytics.com
+The key's randomart image is:
++--[ED25519 256]--+
+|           .B=.  |
+|           o =o .|
+|            . + +|
+|       .   o o +o|
+|      o S o . o..|
+|   + o + o . + o |
+|  o * + o . o + o|
+|   + + . +o*.. Eo|
+|    . .  .B=o . +|
++----[SHA256]-----+
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ ssh-keygen -t ed25519 -C "prabhu.muralidharan@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pgit push origin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ cart[K[Kt /home/prabhu/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKhU7d7TfU5bzUulMAPRbAxnbrYF39zWsIe1rZxPsS28 prabhu.muralidharan@tigeranalytics.com
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ cat /home/prabhu/.ssh/id_ed25519.pub[9Pgit push origin assigntment
+Username for 'https://github.com': prabhu-51  87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ [K(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ [K(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ ^V[Kgit push -u origin master
+error: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/libgit2/libgit2'
+[m(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git[K[K[Kgit pull
+remote: Enumerating objects: 647, done.[K
+remote: Counting objects:   0% (1/570)[Kremote: Counting objects:   1% (6/570)[Kremote: Counting objects:   2% (12/570)[Kremote: Counting objects:   3% (18/570)[Kremote: Counting objects:   4% (23/570)[Kremote: Counting objects:   5% (29/570)[Kremote: Counting objects:   6% (35/570)[Kremote: Counting objects:   7% (40/570)[Kremote: Counting objects:   8% (46/570)[Kremote: Counting objects:   9% (52/570)[Kremote: Counting objects:  10% (57/570)[Kremote: Counting objects:  11% (63/570)[Kremote: Counting objects:  12% (69/570)[Kremote: Counting objects:  13% (75/570)[Kremote: Counting objects:  14% (80/570)[Kremote: Counting objects:  15% (86/570)[Kremote: Counting objects:  16% (92/570)[Kremote: Counting objects:  17% (97/570)[Kremote: Counting objects:  18% (103/570)[Kremote: Counting objects:  19% (109/570)[Kremote: Counting objects:  20% (114/570)[Kremote: Counting objects:  21% (120/570)[Kremote: Counting objects:  22% (126/570)[Kremote: Counting objects:  23% (132/570)[Kremote: Counting objects:  24% (137/570)[Kremote: Counting objects:  25% (143/570)[Kremote: Counting objects:  26% (149/570)[Kremote: Counting objects:  27% (154/570)[Kremote: Counting objects:  28% (160/570)[Kremote: Counting objects:  29% (166/570)[Kremote: Counting objects:  30% (171/570)[Kremote: Counting objects:  31% (177/570)[Kremote: Counting objects:  32% (183/570)[Kremote: Counting objects:  33% (189/570)[Kremote: Counting objects:  34% (194/570)[Kremote: Counting objects:  35% (200/570)[Kremote: Counting objects:  36% (206/570)[Kremote: Counting objects:  37% (211/570)[Kremote: Counting objects:  38% (217/570)[Kremote: Counting objects:  39% (223/570)[Kremote: Counting objects:  40% (228/570)[Kremote: Counting objects:  41% (234/570)[Kremote: Counting objects:  42% (240/570)[Kremote: Counting objects:  43% (246/570)[Kremote: Counting objects:  44% (251/570)[Kremote: Counting objects:  45% (257/570)[Kremote: Counting objects:  46% (263/570)[Kremote: Counting objects:  47% (268/570)[Kremote: Counting objects:  48% (274/570)[Kremote: Counting objects:  49% (280/570)[Kremote: Counting objects:  50% (285/570)[Kremote: Counting objects:  51% (291/570)[Kremote: Counting objects:  52% (297/570)[Kremote: Counting objects:  53% (303/570)[Kremote: Counting objects:  54% (308/570)[Kremote: Counting objects:  55% (314/570)[Kremote: Counting objects:  56% (320/570)[Kremote: Counting objects:  57% (325/570)[Kremote: Counting objects:  58% (331/570)[Kremote: Counting objects:  59% (337/570)[Kremote: Counting objects:  60% (342/570)[Kremote: Counting objects:  61% (348/570)[Kremote: Counting objects:  62% (354/570)[Kremote: Counting objects:  63% (360/570)[Kremote: Counting objects:  64% (365/570)[Kremote: Counting objects:  65% (371/570)[Kremote: Counting objects:  66% (377/570)[Kremote: Counting objects:  67% (382/570)[Kremote: Counting objects:  68% (388/570)[Kremote: Counting objects:  69% (394/570)[Kremote: Counting objects:  70% (399/570)[Kremote: Counting objects:  71% (405/570)[Kremote: Counting objects:  72% (411/570)[Kremote: Counting objects:  73% (417/570)[Kremote: Counting objects:  74% (422/570)[Kremote: Counting objects:  75% (428/570)[Kremote: Counting objects:  76% (434/570)[Kremote: Counting objects:  77% (439/570)[Kremote: Counting objects:  78% (445/570)[Kremote: Counting objects:  79% (451/570)[Kremote: Counting objects:  80% (456/570)[Kremote: Counting objects:  81% (462/570)[Kremote: Counting objects:  82% (468/570)[Kremote: Counting objects:  83% (474/570)[Kremote: Counting objects:  84% (479/570)[Kremote: Counting objects:  85% (485/570)[Kremote: Counting objects:  86% (491/570)[Kremote: Counting objects:  87% (496/570)[Kremote: Counting objects:  88% (502/570)[Kremote: Counting objects:  89% (508/570)[Kremote: Counting objects:  90% (513/570)[Kremote: Counting objects:  91% (519/570)[Kremote: Counting objects:  92% (525/570)[Kremote: Counting objects:  93% (531/570)[Kremote: Counting objects:  94% (536/570)[Kremote: Counting objects:  95% (542/570)[Kremote: Counting objects:  96% (548/570)[Kremote: Counting objects:  97% (553/570)[Kremote: Counting objects:  98% (559/570)[Kremote: Counting objects:  99% (565/570)[Kremote: Counting objects: 100% (570/570)[Kremote: Counting objects: 100% (570/570), done.[K
+remote: Compressing objects:   0% (1/192)[Kremote: Compressing objects:   1% (2/192)[Kremote: Compressing objects:   2% (4/192)[Kremote: Compressing objects:   3% (6/192)[Kremote: Compressing objects:   4% (8/192)[Kremote: Compressing objects:   5% (10/192)[Kremote: Compressing objects:   6% (12/192)[Kremote: Compressing objects:   7% (14/192)[Kremote: Compressing objects:   8% (16/192)[Kremote: Compressing objects:   9% (18/192)[Kremote: Compressing objects:  10% (20/192)[Kremote: Compressing objects:  11% (22/192)[Kremote: Compressing objects:  12% (24/192)[Kremote: Compressing objects:  13% (25/192)[Kremote: Compressing objects:  14% (27/192)[Kremote: Compressing objects:  15% (29/192)[Kremote: Compressing objects:  16% (31/192)[Kremote: Compressing objects:  17% (33/192)[Kremote: Compressing objects:  18% (35/192)[Kremote: Compressing objects:  19% (37/192)[Kremote: Compressing objects:  20% (39/192)[Kremote: Compressing objects:  21% (41/192)[Kremote: Compressing objects:  22% (43/192)[Kremote: Compressing objects:  23% (45/192)[Kremote: Compressing objects:  24% (47/192)[Kremote: Compressing objects:  25% (48/192)[Kremote: Compressing objects:  26% (50/192)[Kremote: Compressing objects:  27% (52/192)[Kremote: Compressing objects:  28% (54/192)[Kremote: Compressing objects:  29% (56/192)[Kremote: Compressing objects:  30% (58/192)[Kremote: Compressing objects:  31% (60/192)[Kremote: Compressing objects:  32% (62/192)[Kremote: Compressing objects:  33% (64/192)[Kremote: Compressing objects:  34% (66/192)[Kremote: Compressing objects:  35% (68/192)[Kremote: Compressing objects:  36% (70/192)[Kremote: Compressing objects:  37% (72/192)[Kremote: Compressing objects:  38% (73/192)[Kremote: Compressing objects:  39% (75/192)[Kremote: Compressing objects:  40% (77/192)[Kremote: Compressing objects:  41% (79/192)[Kremote: Compressing objects:  42% (81/192)[Kremote: Compressing objects:  43% (83/192)[Kremote: Compressing objects:  44% (85/192)[Kremote: Compressing objects:  45% (87/192)[Kremote: Compressing objects:  46% (89/192)[Kremote: Compressing objects:  47% (91/192)[Kremote: Compressing objects:  48% (93/192)[Kremote: Compressing objects:  49% (95/192)[Kremote: Compressing objects:  50% (96/192)[Kremote: Compressing objects:  51% (98/192)[Kremote: Compressing objects:  52% (100/192)[Kremote: Compressing objects:  53% (102/192)[Kremote: Compressing objects:  54% (104/192)[Kremote: Compressing objects:  55% (106/192)[Kremote: Compressing objects:  56% (108/192)[Kremote: Compressing objects:  57% (110/192)[Kremote: Compressing objects:  58% (112/192)[Kremote: Compressing objects:  59% (114/192)[Kremote: Compressing objects:  60% (116/192)[Kremote: Compressing objects:  61% (118/192)[Kremote: Compressing objects:  62% (120/192)[Kremote: Compressing objects:  63% (121/192)[Kremote: Compressing objects:  64% (123/192)[Kremote: Compressing objects:  65% (125/192)[Kremote: Compressing objects:  66% (127/192)[Kremote: Compressing objects:  67% (129/192)[Kremote: Compressing objects:  68% (131/192)[Kremote: Compressing objects:  69% (133/192)[Kremote: Compressing objects:  70% (135/192)[Kremote: Compressing objects:  71% (137/192)[Kremote: Compressing objects:  72% (139/192)[Kremote: Compressing objects:  73% (141/192)[Kremote: Compressing objects:  74% (143/192)[Kremote: Compressing objects:  75% (144/192)[Kremote: Compressing objects:  76% (146/192)[Kremote: Compressing objects:  77% (148/192)[Kremote: Compressing objects:  78% (150/192)[Kremote: Compressing objects:  79% (152/192)[Kremote: Compressing objects:  80% (154/192)[Kremote: Compressing objects:  81% (156/192)[Kremote: Compressing objects:  82% (158/192)[Kremote: Compressing objects:  83% (160/192)[Kremote: Compressing objects:  84% (162/192)[Kremote: Compressing objects:  85% (164/192)[Kremote: Compressing objects:  86% (166/192)[Kremote: Compressing objects:  87% (168/192)[Kremote: Compressing objects:  88% (169/192)[Kremote: Compressing objects:  89% (171/192)[Kremote: Compressing objects:  90% (173/192)[Kremote: Compressing objects:  91% (175/192)[Kremote: Compressing objects:  92% (177/192)[Kremote: Compressing objects:  93% (179/192)[Kremote: Compressing objects:  94% (181/192)[Kremote: Compressing objects:  95% (183/192)[Kremote: Compressing objects:  96% (185/192)[Kremote: Compressing objects:  97% (187/192)[Kremote: Compressing objects:  98% (189/192)[Kremote: Compressing objects:  99% (191/192)[Kremote: Compressing objects: 100% (192/192)[Kremote: Compressing objects: 100% (192/192), done.[K
+Receiving objects:   0% (1/450)Receiving objects:   1% (5/450)Receiving objects:   2% (9/450)Receiving objects:   3% (14/450)Receiving objects:   4% (18/450)Receiving objects:   5% (23/450)Receiving objects:   6% (27/450)Receiving objects:   7% (32/450)Receiving objects:   8% (36/450)Receiving objects:   9% (41/450)Receiving objects:  10% (45/450)Receiving objects:  11% (50/450)Receiving objects:  12% (54/450)Receiving objects:  13% (59/450)Receiving objects:  14% (63/450)Receiving objects:  15% (68/450)Receiving objects:  16% (72/450)Receiving objects:  17% (77/450)Receiving objects:  18% (81/450)Receiving objects:  19% (86/450)Receiving objects:  20% (90/450)Receiving objects:  21% (95/450)Receiving objects:  22% (99/450)Receiving objects:  23% (104/450)Receiving objects:  24% (108/450)Receiving objects:  25% (113/450)Receiving objects:  26% (117/450)Receiving objects:  27% (122/450)Receiving objects:  28% (126/450)Receiving objects:  29% (131/450)Receiving objects:  30% (135/450)Receiving objects:  31% (140/450)Receiving objects:  32% (144/450)Receiving objects:  33% (149/450)Receiving objects:  34% (153/450)Receiving objects:  35% (158/450)Receiving objects:  36% (162/450)Receiving objects:  37% (167/450)Receiving objects:  38% (171/450)Receiving objects:  39% (176/450)Receiving objects:  40% (180/450)Receiving objects:  41% (185/450)Receiving objects:  42% (189/450)Receiving objects:  43% (194/450)Receiving objects:  44% (198/450)Receiving objects:  45% (203/450)Receiving objects:  46% (207/450)Receiving objects:  47% (212/450)Receiving objects:  48% (216/450)Receiving objects:  49% (221/450)Receiving objects:  50% (225/450)Receiving objects:  51% (230/450)Receiving objects:  52% (234/450)Receiving objects:  53% (239/450)Receiving objects:  54% (243/450)Receiving objects:  55% (248/450)Receiving objects:  56% (252/450)Receiving objects:  57% (257/450)Receiving objects:  58% (261/450)Receiving objects:  59% (266/450)Receiving objects:  60% (270/450)Receiving objects:  61% (275/450)Receiving objects:  62% (279/450)Receiving objects:  63% (284/450)Receiving objects:  64% (288/450)Receiving objects:  65% (293/450)Receiving objects:  66% (297/450)Receiving objects:  67% (302/450)Receiving objects:  68% (306/450)Receiving objects:  69% (311/450)Receiving objects:  70% (315/450)Receiving objects:  71% (320/450)Receiving objects:  72% (324/450)Receiving objects:  73% (329/450)Receiving objects:  74% (333/450)Receiving objects:  75% (338/450)Receiving objects:  76% (342/450)Receiving objects:  77% (347/450)remote: Total 450 (delta 369), reused 317 (delta 255), pack-reused 0[K
+Receiving objects:  78% (351/450)Receiving objects:  79% (356/450)Receiving objects:  80% (360/450)Receiving objects:  81% (365/450)Receiving objects:  82% (369/450)Receiving objects:  83% (374/450)Receiving objects:  84% (378/450)Receiving objects:  85% (383/450)Receiving objects:  86% (387/450)Receiving objects:  87% (392/450)Receiving objects:  88% (396/450)Receiving objects:  89% (401/450)Receiving objects:  90% (405/450)Receiving objects:  91% (410/450)Receiving objects:  92% (414/450)Receiving objects:  93% (419/450)Receiving objects:  94% (423/450)Receiving objects:  95% (428/450)Receiving objects:  96% (432/450)Receiving objects:  97% (437/450)Receiving objects:  98% (441/450)Receiving objects:  99% (446/450)Receiving objects: 100% (450/450)Receiving objects: 100% (450/450), 348.64 KiB | 15.16 MiB/s, done.
+Resolving deltas:   0% (0/369)Resolving deltas:   1% (5/369)Resolving deltas:   4% (17/369)Resolving deltas:   6% (25/369)Resolving deltas:   7% (29/369)Resolving deltas:   8% (32/369)Resolving deltas:   9% (35/369)Resolving deltas:  10% (37/369)Resolving deltas:  11% (41/369)Resolving deltas:  12% (45/369)Resolving deltas:  19% (72/369)Resolving deltas:  20% (74/369)Resolving deltas:  21% (78/369)Resolving deltas:  24% (89/369)Resolving deltas:  27% (100/369)Resolving deltas:  31% (115/369)Resolving deltas:  32% (121/369)Resolving deltas:  33% (124/369)Resolving deltas:  34% (129/369)Resolving deltas:  38% (143/369)Resolving deltas:  40% (151/369)Resolving deltas:  48% (178/369)Resolving deltas:  49% (181/369)Resolving deltas:  53% (198/369)Resolving deltas:  54% (201/369)Resolving deltas:  55% (206/369)Resolving deltas:  56% (207/369)Resolving deltas:  57% (211/369)Resolving deltas:  58% (215/369)Resolving deltas:  59% (218/369)Resolving deltas:  60% (222/369)Resolving deltas:  61% (227/369)Resolving deltas:  62% (232/369)Resolving deltas:  64% (237/369)Resolving deltas:  65% (243/369)Resolving deltas:  66% (245/369)Resolving deltas:  67% (249/369)Resolving deltas:  68% (251/369)Resolving deltas:  69% (257/369)Resolving deltas:  70% (259/369)Resolving deltas:  71% (262/369)Resolving deltas:  72% (267/369)Resolving deltas:  73% (270/369)Resolving deltas:  74% (274/369)Resolving deltas:  75% (279/369)Resolving deltas:  76% (281/369)Resolving deltas:  77% (287/369)Resolving deltas:  78% (289/369)Resolving deltas:  79% (292/369)Resolving deltas:  80% (298/369)Resolving deltas:  88% (326/369)Resolving deltas:  89% (329/369)Resolving deltas:  90% (335/369)Resolving deltas:  91% (337/369)Resolving deltas:  92% (341/369)Resolving deltas:  93% (344/369)Resolving deltas:  94% (348/369)Resolving deltas:  95% (351/369)Resolving deltas:  96% (355/369)Resolving deltas:  97% (359/369)Resolving deltas:  98% (362/369)Resolving deltas:  99% (366/369)Resolving deltas: 100% (369/369)Resolving deltas: 100% (369/369), completed with 95 local objects.
+From https://github.com/libgit2/libgit2
+ * [new branch]          ethomson/keepalive   -> origin/ethomson/keepalive
+ + 9f7f2f968...4fe577247 ethomson/nonblocking -> origin/ethomson/nonblocking  (forced update)
+ * [new branch]          ethomson/repo_env    -> origin/ethomson/repo_env
+ * [new branch]          ethomson/repo_env_a  -> origin/ethomson/repo_env_a
+ * [new branch]          ethomson/ssh_exec    -> origin/ethomson/ssh_exec
+ * [new branch]          ethomson/timeouts    -> origin/ethomson/timeouts
+   77a6d1682..bb2b8acdf  gh-pages             -> origin/gh-pages
+   1b929b3d8..2f20fe886  main                 -> origin/main
+   25ec37379..c058aa87d  maint/v1.6           -> origin/maint/v1.6
+ * [new branch]          repo_env_b           -> origin/repo_env_b
+ * [new branch]          repo_env_c           -> origin/repo_env_c
+ * [new tag]             v1.6.3               -> v1.6.3
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> assigntment
+
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git pullsh -u origin masterorigin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com': prabhu@87  -87^[[D^[[D            -87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ ^C
+: command not found
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2
+Cloning into 'assign1.2'...
+fatal: repository 'https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2/' not found
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ [K(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[Kgit push origin assigntment
+Username for 'https://github.com': prabhu-87
+Password for 'https://prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com':  prabhu-87
+Password for 'https:// prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git push origin assigntment
+Username for 'https://github.com':  prabhu-87
+Password for 'https:// prabhu-87@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/libgit2/libgit2/'
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git clone https://github.com/prabhu-87/mle-training/
+Cloning into 'mle-training'...
+remote: Enumerating objects: 10, done.[K
+remote: Counting objects:  10% (1/10)[Kremote: Counting objects:  20% (2/10)[Kremote: Counting objects:  30% (3/10)[Kremote: Counting objects:  40% (4/10)[Kremote: Counting objects:  50% (5/10)[Kremote: Counting objects:  60% (6/10)[Kremote: Counting objects:  70% (7/10)[Kremote: Counting objects:  80% (8/10)[Kremote: Counting objects:  90% (9/10)[Kremote: Counting objects: 100% (10/10)[Kremote: Counting objects: 100% (10/10), done.[K
+remote: Compressing objects:  14% (1/7)[Kremote: Compressing objects:  28% (2/7)[Kremote: Compressing objects:  42% (3/7)[Kremote: Compressing objects:  57% (4/7)[Kremote: Compressing objects:  71% (5/7)[Kremote: Compressing objects:  85% (6/7)[Kremote: Compressing objects: 100% (7/7)[Kremote: Compressing objects: 100% (7/7), done.[K
+remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  10% (1/10)Unpacking objects:  20% (2/10)Unpacking objects:  30% (3/10)Unpacking objects:  40% (4/10)Unpacking objects:  50% (5/10)Unpacking objects:  60% (6/10)Unpacking objects:  70% (7/10)Unpacking objects:  80% (8/10)Unpacking objects:  90% (9/10)Unpacking objects: 100% (10/10)Unpacking objects: 100% (10/10), 4.35 KiB | 85.00 KiB/s, done.
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ ls
+[0m[01;34mmle-training[0m  my_unix_session
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ cd mle-training/
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1/mle-training[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1/mle-training[00m$ ls
+README.md
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1/mle-training[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1/mle-training[00m$ ls
+README.md
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1/mle-training[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1/mle-training[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1/mle-training[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1/mle-training[00m$ git brac[Knch
+[?1h=* [32mmain[m[m
+[K[?1l>(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1/mle-training[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1/mle-training[00m$ cd /[K,,[K[K..
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git c,o[K[Klone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2
+Cloning into 'assign1.2'...
+fatal: repository 'https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2/' not found
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/prabhu-87/mle-training/tree/enh_1_assign1_2
+Cloning into 'enh_1_assign1_2'...
+fatal: repository 'https://github.com/prabhu-87/mle-training/tree/enh_1_assign1_2/' not found
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ git clone https://github.com/prabhu-87/mle-training/tree/enh_1_assign1_2/1/assign1.2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit branchstatusls[Kcd mle-training/ls[Kgit clone https://github.com/prabhu-87/mle-training/
+fatal: destination path 'mle-training' already exists and is not an empty directory.
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ conda env list
+# conda environments:
+#
+base                  *  /home/prabhu/anaconda3
+mle-dev                  /home/prabhu/anaconda3/envs/mle-dev
+regression               /home/prabhu/anaconda3/envs/regression
+ta-lib-dev               /home/prabhu/anaconda3/envs/ta-lib-dev
+
+(base) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ conda activate mle-dev
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ ls
+[0m[01;34mmle-training[0m  my_unix_session
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ pip insrt[K[K[K[K[K[K[K[K[Kcd mle-training/
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1/mle-training[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1/mle-training[00m$ ls
+README.md
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1/mle-training[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1/mle-training[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1/mle-training[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1/mle-training[00m$ cd ..
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit/assignment1.1[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit/assignment1.1[00m$ cd ..
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2
+Cloning into 'assign1.2'...
+fatal: repository 'https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2/' not found
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ gt [K[Kit remote
+origin
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git remote -b
+error: unknown switch `b'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git remote -b[Kv
+origin	https://github.com/libgit2/libgit2 (fetch)
+origin	https://github.com/libgit2/libgit2 (push)
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ git remote -vb[Kclone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2
+Cloning into 'assign1.2'...
+fatal: repository 'https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2/' not found
+(mle-dev) ]0;prabhu@TIGER01699: ~/mylibgit[01;32mprabhu@TIGER01699[00m:[01;34m~/mylibgit[00m$ cd ~/ssh.ssh
+(mle-dev) ]0;prabhu@TIGER01699: ~/.ssh[01;32mprabhu@TIGER01699[00m:[01;34m~/.ssh[00m$ ls
+id_ed25519  id_ed25519.pub  id_rsa  id_rsa.pub  known_hosts
+(mle-dev) ]0;prabhu@TIGER01699: ~/.ssh[01;32mprabhu@TIGER01699[00m:[01;34m~/.ssh[00m$ ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+(mle-dev) ]0;prabhu@TIGER01699: ~/.ssh[01;32mprabhu@TIGER01699[00m:[01;34m~/.ssh[00m$ cat `[K~/.ssh
+cat: /home/prabhu/.ssh: Is a directory
+(mle-dev) ]0;prabhu@TIGER01699: ~/.ssh[01;32mprabhu@TIGER01699[00m:[01;34m~/.ssh[00m$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLZlgw3fYGeSVXSyiw3Kg2KXZHMDo8rBt6MFN/kc/e5bEToE5Hxi2qEwXJ3t+uQNXJ8BLwxPVKqj83uMtLYj5AHZ4MPXWORvje+GKDwkE8lhuofMURxj+VaWn6H6qtjPMUFwYLaiwaJ6KxK/jZYAFlUpsZBIYE2auJyFOa67LoZWSwjAgGqagwfi2RqKdd5KOaY12i+bbY9PXBjiuvS2Ex1xbZmRQ3fhj9DaG9jOKbWGJzCdKP2W01SKBb6psPfRu9odKQKLo4JBqBhFmDIRLZhgoMNkRsd/ibO24mABjnZPi5p0APJb5q3yAMtglJHT3u3X/o1k8RSmylwQ+ZVViozEvLaRlIv/39llGZU3l94rm7bW9Sp3xgMAzWMgBlrf3G+BtZSBtVNQb49GblGMzbdSdAbZy3HTsF5HOdxITtUr2lMoPIqj4Q8PCdGVd/ixFnPWmY6T+aMHRuFrLpzE8pYho+7Li74CD2MvL7bevQtf8hnw/2nvUrcvgQM++qSiROTB+sK1DeSd0HoXORbIqwqcF8oySZVKe743tXQr4zocfgSZkOdxIOmwoCynTKuz9sn2tgqPhiNLXrKmP1R38skxNBi08OTYy3RGIth5ZFkYfSbe/Rc5Wg0tHCN5I0tHgesCMHT6hK8FsfO6T8p7fny9H7ERpCJz8pu58QVM1tKw== prabhu.muralidha@tigeranalytics.com
+(mle-dev) ]0;prabhu@TIGER01699: ~/.ssh[01;32mprabhu@TIGER01699[00m:[01;34m~/.ssh[00m$ cat ~/.ssh/id_rsa.pub[Kssh[K[1Plscd ~/.sshgit clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2
+Cloning into 'assign1.2'...
+fatal: repository 'https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2/' not found
+(mle-dev) ]0;prabhu@TIGER01699: ~/.ssh[01;32mprabhu@TIGER01699[00m:[01;34m~/.ssh[00m$ cd ..
+(mle-dev) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ pwd
+/home/prabhu
+(mle-dev) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ cd ls[K[K[K[K[Kls
+Anaconda3-5.3.1-Linux-x86_64.sh  [0m[01;34mlibgit2[0m              my_miniconda_session                  my_unix_session1  [01;34mproject[0m
+README                           my_git_session       my_miniconda_session:Zone.Identifier  my_unix_session2  [01;34mthesis[0m
+[01;34manaconda3[0m                        my_ini_unix_session  my_unix_session                       [01;34mmylibgit[0m
+(mle-dev) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ mkdir mle-a[K[K_assignments
+(mle-dev) ]0;prabhu@TIGER01699: ~[01;32mprabhu@TIGER01699[00m:[01;34m~[00m$ cd mlew[K_assignments/`[K
+(mle-dev) ]0;prabhu@TIGER01699: ~/mle_assignments[01;32mprabhu@TIGER01699[00m:[01;34m~/mle_assignments[00m$ cd mle_assignments/mkdir mle_assignmentsls[Kpwdcd ..git clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat ~/.ssh/id_rsa.pub[K[Kssh[K[1Plscd ~/.sshgit clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote -v[Kb[Kclone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kgit branchls[Kcd mle-training/ls[Kconda activate mle-devls[Kcd mle-training/ls[Kgit branch[5Pcd ..git clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote[K -bvclone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/.ssh[Kls[Ksshcat ~/.ssh/id_rsa.pubgit clone https://github.com/prabhu-87/mle-training/tree/enh/1/assign1.2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[2Ppwd[1Plsmkdir mle_assignments[2Pcd mle_assignments/[Kgit remote add
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+(mle-dev) ]0;prabhu@TIGER01699: ~/mle_assignments[01;32mprabhu@TIGER01699[00m:[01;34m~/mle_assignments[00m$ git remote add n[Kmlwe[K[Ke-assign
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+(mle-dev) ]0;prabhu@TIGER01699: ~/mle_assignments[01;32mprabhu@TIGER01699[00m:[01;34m~/mle_assignments[00m$ git remote add mle-assign[K[K[K[K[K[K[K[K[K[Khttps://github.com/prabhu-87/mle-training
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+(mle-dev) ]0;prabhu@TIGER01699: ~/mle_assignments[01;32mprabhu@TIGER01699[00m:[01;34m~/mle_assignments[00m$ ls
+(mle-dev) ]0;prabhu@TIGER01699: ~/mle_assignments[01;32mprabhu@TIGER01699[00m:[01;34m~/mle_assignments[00m$ ls[Klsgit remote add https://github.com/prabhu-87/mle-training [1@o[1@r[1@i[1@g[1@i[1@n[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: remote origin already exists.
+(mle-dev) ]0;prabhu@TIGER01699: ~/mle_assignments[01;32mprabhu@TIGER01699[00m:[01;34m~/mle_assignments[00m$ git remote 
+origin
+(mle-dev) ]0;prabhu@TIGER01699: ~/mle_assignments[01;32mprabhu@TIGER01699[00m:[01;34m~/mle_assignments[00m$ git remote -v
+origin	https://github.com/prabhu-87/Developer-env.git (fetch)
+origin	https://github.com/pra
