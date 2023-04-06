@@ -1,9 +1,3 @@
-# steps taken to run the code and export yml file
-
- -> a new environment mle-dev was created and activated
- -> The nonstandard code was pushed to the git and run using - python3 nonstandardcode.py command
- -> few errors where encountered hence changes to the code were made and then run. 
- -> The environment file was exported using export env.yml command
 
 # Median housing value prediction
 
@@ -23,3 +17,10 @@ The following techniques have been used:
 
 ## To excute the script
 python < scriptname.py >
+
+# steps taken to run the code and export yml file
+
+ -> a new environment mle-dev was created and activated
+ -> The nonstandard code was pushed to the git and run using - python3 nonstandardcode.py command
+ -> few errors where encountered hence changes to the code were made and then run. 
+ -> The environment file was exported using export env.yml command
