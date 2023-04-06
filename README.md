@@ -1,11 +1,9 @@
 # steps taken to run the code and export yml file
 
-* Git clone the repo mle-training.git - using the command - git clone git@github.com:sravanisasu66/mle-training.git
-* If not already present install any python interpreter or Miniconda from the following link : https://docs.conda.io/en/latest/miniconda.html
-* From the command line navigate to the path when the git clone repo is present
-* Create a virual environment using the yml file using the command - conda env create -f env.yml
-* Activate the virtual environment using the command - conda activate mle-dev
-* Excute the python code nonstandardcode.py using the command - python nonstandardcode.py
+ -> a new environment mle-dev was created and activated
+ -> The nonstandard code was pushed to the git and run using - python3 nonstandardcode.py command
+ -> few errors where encountered hence changes to the code were made and then run. 
+ -> The environment file was exported using export env.yml command
 
 # Median housing value prediction
 
