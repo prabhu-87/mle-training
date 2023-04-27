@@ -1,0 +1,32 @@
+2023-04-19 11:44:50,018:__main__:Linear Regression
+2023-04-19 11:44:50,018:__main__:MSE = 4709785076.060029
+2023-04-19 11:44:50,019:__main__:RMSE = 68627.87390018745
+2023-04-19 11:44:50,019:__main__:MAE = 49438.66860915801
+2023-04-19 11:44:50,035:__main__:Decision Tree Regressor
+2023-04-19 11:44:50,035:__main__:MSE = 0.0
+2023-04-19 11:44:50,036:__main__:RMSE = 0.0
+2023-04-19 11:44:50,513:__main__:Random Forest Regressor RSCV
+2023-04-19 11:44:50,514:__main__:MSE = 49117.55344336652, params = {'max_features': 7, 'n_estimators': 180}
+2023-04-19 11:44:50,515:__main__:MSE = 51450.63202856348, params = {'max_features': 5, 'n_estimators': 15}
+2023-04-19 11:44:50,518:__main__:MSE = 50692.53588182537, params = {'max_features': 3, 'n_estimators': 72}
+2023-04-19 11:44:50,519:__main__:MSE = 50783.614493515, params = {'max_features': 5, 'n_estimators': 21}
+2023-04-19 11:44:50,520:__main__:MSE = 49162.89877456354, params = {'max_features': 7, 'n_estimators': 122}
+2023-04-19 11:44:50,520:__main__:MSE = 50655.798471042704, params = {'max_features': 3, 'n_estimators': 75}
+2023-04-19 11:44:50,520:__main__:MSE = 50513.856319990606, params = {'max_features': 3, 'n_estimators': 88}
+2023-04-19 11:44:50,521:__main__:MSE = 49521.17201976928, params = {'max_features': 5, 'n_estimators': 100}
+2023-04-19 11:44:50,521:__main__:MSE = 50302.90440763418, params = {'max_features': 3, 'n_estimators': 150}
+2023-04-19 11:44:50,521:__main__:MSE = 65167.02018649492, params = {'max_features': 5, 'n_estimators': 2}
+2023-04-19 11:44:50,856:__main__:Random Forest Regressor GSCV
+2023-04-19 11:44:50,857:__main__:MSE = 49117.55344336652, params = {'max_features': 7, 'n_estimators': 180}
+2023-04-19 11:44:50,859:__main__:MSE = 51450.63202856348, params = {'max_features': 5, 'n_estimators': 15}
+2023-04-19 11:44:50,860:__main__:MSE = 50692.53588182537, params = {'max_features': 3, 'n_estimators': 72}
+2023-04-19 11:44:50,861:__main__:MSE = 50783.614493515, params = {'max_features': 5, 'n_estimators': 21}
+2023-04-19 11:44:50,861:__main__:MSE = 49162.89877456354, params = {'max_features': 7, 'n_estimators': 122}
+2023-04-19 11:44:50,862:__main__:MSE = 50655.798471042704, params = {'max_features': 3, 'n_estimators': 75}
+2023-04-19 11:44:50,862:__main__:MSE = 50513.856319990606, params = {'max_features': 3, 'n_estimators': 88}
+2023-04-19 11:44:50,862:__main__:MSE = 49521.17201976928, params = {'max_features': 5, 'n_estimators': 100}
+2023-04-19 11:44:50,862:__main__:MSE = 50302.90440763418, params = {'max_features': 3, 'n_estimators': 150}
+2023-04-19 11:44:50,863:__main__:MSE = 65167.02018649492, params = {'max_features': 5, 'n_estimators': 2}
+2023-04-19 11:44:50,927:__main__:Final Model
+2023-04-19 11:44:50,927:__main__:MSE = 4769677099.742126
+2023-04-19 11:44:50,928:__main__:RMSE = 69062.84891127882
