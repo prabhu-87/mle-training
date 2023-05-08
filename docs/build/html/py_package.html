@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>py_package package &mdash; House Median Prediction 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="py_package" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> House Median Prediction
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">py_package</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">py_package package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-py_package.ingest_data">py_package.ingest_data module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#py_package.ingest_data.fetch_housing_data"><code class="docutils literal notranslate"><span class="pre">fetch_housing_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#py_package.ingest_data.generate_file"><code class="docutils literal notranslate"><span class="pre">generate_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#py_package.ingest_data.load_housing_data"><code class="docutils literal notranslate"><span class="pre">load_housing_data()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-py_package.score">py_package.score module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#py_package.score.score"><code class="docutils literal notranslate"><span class="pre">score()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-py_package.train">py_package.train module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#py_package.train.income_cat_proportions"><code class="docutils literal notranslate"><span class="pre">income_cat_proportions()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#py_package.train.train"><code class="docutils literal notranslate"><span class="pre">train()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-py_package">Module contents</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#py_package.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">House Median Prediction</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">py_package</a></li>
+      <li class="breadcrumb-item active">py_package package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/py_package.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="py-package-package">
+<h1>py_package package<a class="headerlink" href="#py-package-package" title="Permalink to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-py_package.ingest_data">
+<span id="py-package-ingest-data-module"></span><h2>py_package.ingest_data module<a class="headerlink" href="#module-py_package.ingest_data" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="py_package.ingest_data.fetch_housing_data">
+<span class="sig-prename descclassname"><span class="pre">py_package.ingest_data.</span></span><span class="sig-name descname"><span class="pre">fetch_housing_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">housing_url</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">housing_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'datasets\\housing'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#py_package.ingest_data.fetch_housing_data" title="Permalink to this definition"></a></dt>
+<dd><p>This fetch_housing_data function will fetch the data from the given url
+and creates data’s tarfile to given path.</p>
+<dl class="simple">
+<dt>Parameters:</dt><dd><ul class="simple">
+<li><p><strong>housing_url</strong> (list) - url of data</p></li>
+<li><p><strong>housing_path</strong> (str) - path to store data</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Returs:</strong> None</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="py_package.ingest_data.generate_file">
+<span class="sig-prename descclassname"><span class="pre">py_package.ingest_data.</span></span><span class="sig-name descname"><span class="pre">generate_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">train_test_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#py_package.ingest_data.generate_file" title="Permalink to this definition"></a></dt>
+<dd><p>this function creates train and test data and store them in the given path.</p>
+<dl class="simple">
+<dt>Parameters:</dt><dd><ul class="simple">
+<li><p><strong>train_test_path</strong> (str): give path to save data</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Returs:</strong> None</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="py_package.ingest_data.load_housing_data">
+<span class="sig-prename descclassname"><span class="pre">py_package.ingest_data.</span></span><span class="sig-name descname"><span class="pre">load_housing_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">housing_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'datasets\\housing'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#py_package.ingest_data.load_housing_data" title="Permalink to this definition"></a></dt>
+<dd><p>this function loads the data from given path.</p>
+<dl class="simple">
+<dt>Parameters:</dt><dd><ul class="simple">
+<li><p><strong>housing_path</strong> (str): path of saved data</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Returs:</strong> csv file of data</p>
+</dd></dl>
+
+</section>
+<section id="module-py_package.score">
+<span id="py-package-score-module"></span><h2>py_package.score module<a class="headerlink" href="#module-py_package.score" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="py_package.score.score">
+<span class="sig-prename descclassname"><span class="pre">py_package.score.</span></span><span class="sig-name descname"><span class="pre">score</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#py_package.score.score" title="Permalink to this definition"></a></dt>
+<dd><p>this function checks score for each model.</p>
+<dl class="simple">
+<dt>Parameters:</dt><dd><ul class="simple">
+<li><p>None</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Returs:</strong> None</p>
+</dd></dl>
+
+</section>
+<section id="module-py_package.train">
+<span id="py-package-train-module"></span><h2>py_package.train module<a class="headerlink" href="#module-py_package.train" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="py_package.train.income_cat_proportions">
+<span class="sig-prename descclassname"><span class="pre">py_package.train.</span></span><span class="sig-name descname"><span class="pre">income_cat_proportions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#py_package.train.income_cat_proportions" title="Permalink to this definition"></a></dt>
+<dd><p>this function creates proportion of income categories.</p>
+<dl class="simple">
+<dt>Parameters:</dt><dd><ul class="simple">
+<li><p><strong>data</strong> (pd.DataFrame): data from which we want to calculate proportion</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Returs:</strong> array having proportions of categories</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="py_package.train.train">
+<span class="sig-prename descclassname"><span class="pre">py_package.train.</span></span><span class="sig-name descname"><span class="pre">train</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#py_package.train.train" title="Permalink to this definition"></a></dt>
+<dd><p>this function trains all the model and pickle them in given path.</p>
+<dl class="simple">
+<dt>Parameters:</dt><dd><ul class="simple">
+<li><p><strong>model_path</strong> (str): give path to save all model pickles</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Returs:</strong> None</p>
+</dd></dl>
+
+</section>
+<section id="module-py_package">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-py_package" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="py_package.main">
+<span class="sig-prename descclassname"><span class="pre">py_package.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#py_package.main" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="py_package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Prabhu Ram.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

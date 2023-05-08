@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: py-package
+Version: 0.0.1
+Summary: Median House Prediction
+Home-page: UNKNOWN
+Author: Prabhu-87
+Author-email: prabhu.muralidharan@tigeranalytics.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/py_package/__init__.py
+src/py_package/ingest_data.py
+src/py_package/score.py
+src/py_package/train.py
+src/py_package_for_3.1.egg-info/PKG-INFO
+src/py_package_for_3.1.egg-info/SOURCES.txt
+src/py_package_for_3.1.egg-info/dependency_links.txt
+src/py_package_for_3.1.egg-info/top_level.txt

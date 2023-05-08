@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-package-for-3.1
+Version: 0.0.1
+Summary: Median House Prediction
+Author: Prakash-Pandey29
+Author-email: prakash.pandey@tigeranalytics.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
