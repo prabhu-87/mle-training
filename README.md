@@ -9,6 +9,7 @@ The following techniques have been used:
  - Decision Tree
  - Random Forest
 
+
 ## Steps performed
  - We prepare and clean the data. We check and impute for missing values.
  - Features are generated and the variables are checked for correlation.
